@@ -39,7 +39,7 @@
 
 #me h4  {
 	margin-top: -20px;
-	font-size: 32px;
+	font-size: 20px;
 	font-weight: 700;
     background: #8A2BE2;
         
@@ -48,7 +48,7 @@
 #me h4 span {
 	display: block;
 	position: relative;
-	left: -40px;
+	left: 40px;
 	top: 10px;
 	font-size: 20px;
 	background: none;
@@ -86,10 +86,12 @@
   display: table;
   width: 100%;
   height: auto;
-  padding: 0 0;
+  padding: 30px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
   color: white;
-    background-color: black;
+    background-color: 100ack;
     background-size: 100%;
   background-color: transparent;
   -webkit-background-size: cover;
@@ -133,8 +135,8 @@
     background-size: 80px auto;
     
 }
-.inicon.facebook{
-    background: url("../img/Facebook-Icon11.jpg") no-repeat center 40px;
+.inicon.linkedin{
+    background: url("../img/linkedin.jpg") no-repeat center 40px;
     background-size: 80px auto;
 }
 .inicon.gmail{
@@ -165,7 +167,7 @@
   background-color: black;
 
 }
-.inicon.facebook:hover{
+.inicon.linkedin:hover{
 	-webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
