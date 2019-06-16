@@ -13,7 +13,7 @@
 
 /* Social Networks Meta */
 #me li {display: inline-block; padding: 0 6px; font-size: 40px;}
-#me li a {color: rgba(0,0,0, 0.3); transition: all 0.1s ease-in;}
+#me li a {color: olive; transition: all 0.1s ease-in;}
 #me li a:hover {color: white;rgba(0,0,0, 0.7);}
 
 #me {
@@ -38,11 +38,8 @@
 }
 
 #me h4  {
-	margin-top: -20px;
 	font-size: 20px;
-	font-weight: 700;
-    background: #8A2BE2;
-        
+	font-weight: 700;        
 }
 
 #me h4 span {
@@ -82,6 +79,7 @@
 	border-radius: 0 16px 16px 0;
 	font-size: 16px;
    }
+
 .about-section {
   display: table;
   width: 100%;
