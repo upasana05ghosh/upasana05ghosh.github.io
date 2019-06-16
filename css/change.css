@@ -13,13 +13,13 @@
 
 /* Social Networks Meta */
 #me li {display: inline-block; padding: 0 6px; font-size: 40px;}
-#me li a {color: rgba(0,0,0, 0.3); transition: all 0.1s ease-in;}
+#me li a {color: OLIVE; transition: all 0.1s ease-in;}
 #me li a:hover {color: white;rgba(0,0,0, 0.7);}
 
 #me {
 	padding: 60px 0;
 	background: transparent;
-	text-align: center;	
+	text-align: center;
 }
 
 #me p {
@@ -38,11 +38,9 @@
 }
 
 #me h4  {
-	margin-top: -20px;
 	font-size: 20px;
 	font-weight: 700;
-    background: #8A2BE2;
-        
+
 }
 
 #me h4 span {
@@ -59,17 +57,17 @@
 #me img {
 	width: 100%;
 	max-width: 240px;
-	border-radius: 50%; 
-	border: 15px solid transparent; 
-	box-shadow: 2px 2px 0px #191970	; rgba(0,0,0, 0.18);
+	border-radius: 50%;
+	border: 15px solid transparent;
+	box-shadow: 2px 2px 0px #191970	; NAVYOLIVE;
 	transition: all 0.1s ease-in;
 }
-	
+
 #me img:hover {
 	border: 15px solid white;
 	position: relative;
 	z-index: 10;
-	transition: all 0.1s ease-in;	
+	transition: all 0.1s ease-in;
 }
 
 #me span {
@@ -133,7 +131,7 @@
 .inicon.twitter{
     background: url("../img/twitter-logo-small.png") no-repeat center 40px;
     background-size: 80px auto;
-    
+
 }
 .inicon.linkedin{
     background: url("../img/linkedin.jpg") no-repeat center 40px;

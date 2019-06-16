@@ -9,7 +9,7 @@ body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
-     background: url(../img/stars.jpg) no-repeat center center fixed; 
+     background: url(../img/stars.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -129,12 +129,13 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/myspace44.jpg) no-repeat bottom center scroll;
+  background: url(../img/img.png) repeat 0 0;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  -webkit-animation: slide 20s linear infinite;
 }
 .intro .intro-body {
   display: table-cell;
@@ -318,4 +319,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -800px 0; }
 }
