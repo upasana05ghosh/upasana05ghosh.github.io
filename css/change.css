@@ -13,13 +13,13 @@
 
 /* Social Networks Meta */
 #me li {display: inline-block; padding: 0 6px; font-size: 40px;}
-#me li a {color: olive; transition: all 0.1s ease-in;}
+#me li a {color: OLIVE; transition: all 0.1s ease-in;}
 #me li a:hover {color: white;rgba(0,0,0, 0.7);}
 
 #me {
 	padding: 60px 0;
 	background: transparent;
-	text-align: center;	
+	text-align: center;
 }
 
 #me p {
@@ -39,7 +39,8 @@
 
 #me h4  {
 	font-size: 20px;
-	font-weight: 700;        
+	font-weight: 700;
+
 }
 
 #me h4 span {
@@ -56,17 +57,17 @@
 #me img {
 	width: 100%;
 	max-width: 240px;
-	border-radius: 50%; 
-	border: 15px solid transparent; 
-	box-shadow: 2px 2px 0px #191970	; rgba(0,0,0, 0.18);
+	border-radius: 50%;
+	border: 15px solid transparent;
+	box-shadow: 2px 2px 0px #191970	; NAVYOLIVE;
 	transition: all 0.1s ease-in;
 }
-	
+
 #me img:hover {
 	border: 15px solid white;
 	position: relative;
 	z-index: 10;
-	transition: all 0.1s ease-in;	
+	transition: all 0.1s ease-in;
 }
 
 #me span {
@@ -79,7 +80,6 @@
 	border-radius: 0 16px 16px 0;
 	font-size: 16px;
    }
-
 .about-section {
   display: table;
   width: 100%;
@@ -131,7 +131,7 @@
 .inicon.twitter{
     background: url("../img/twitter-logo-small.png") no-repeat center 40px;
     background-size: 80px auto;
-    
+
 }
 .inicon.linkedin{
     background: url("../img/linkedin.jpg") no-repeat center 40px;
@@ -153,7 +153,6 @@
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   background-size: 100px auto;
-  background-color: black;
 }
 
 .inicon.github:hover{
@@ -161,8 +160,7 @@
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  background-size: 100px auto;
-  background-color: black;
+  background-size: 85px auto;
 
 }
 .inicon.linkedin:hover{
@@ -170,16 +168,14 @@
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  background-size: 100px auto;
-  background-color: black;
+  background-size: 80px auto;
 }
 .inicon.twitter:hover{
 	-webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  background-size: 100px auto;
-  background-color: black;
+  background-size: 80px auto;
 }
 
 .no-js #loader { display: none;  }
