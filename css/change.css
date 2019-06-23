@@ -153,7 +153,6 @@
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   background-size: 100px auto;
-  background-color: black;
 }
 
 .inicon.github:hover{
@@ -161,8 +160,7 @@
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  background-size: 100px auto;
-  background-color: black;
+  background-size: 85px auto;
 
 }
 .inicon.linkedin:hover{
@@ -170,16 +168,14 @@
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  background-size: 100px auto;
-  background-color: black;
+  background-size: 80px auto;
 }
 .inicon.twitter:hover{
 	-webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  background-size: 100px auto;
-  background-color: black;
+  background-size: 80px auto;
 }
 
 .no-js #loader { display: none;  }
