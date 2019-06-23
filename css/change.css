@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Member Image Hover Effect */
 .hover_img {
   display: none
@@ -190,3 +191,197 @@
 	background: url("../img/Preloader_2.gif") center no-repeat #000000;
 	background-color:black;
 }
+=======
+/* Member Image Hover Effect */
+.hover_img {
+  display: none
+}
+
+.member-profile:hover .unhover_img{
+  display: none;
+}
+
+.member-profile:hover .hover_img {
+  display: block;
+}
+
+/* Social Networks Meta */
+#me li {display: inline-block; padding: 0 6px; font-size: 40px;}
+#me li a {color: OLIVE; transition: all 0.1s ease-in;}
+#me li a:hover {color: white;rgba(0,0,0, 0.7);}
+
+#me {
+	padding: 60px 0;
+	background: transparent;
+	text-align: center;
+}
+
+#me p {
+	padding: 20px 0 60px;
+	color: rgba(255,255,255, 0.85);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+}
+
+#me h3 {
+	padding: 0 0 15px;
+	font-family: 'norwester';
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+#me h4  {
+	font-size: 20px;
+	font-weight: 700;
+
+}
+
+#me h4 span {
+	display: block;
+	position: relative;
+	left: 40px;
+	top: 10px;
+	font-size: 20px;
+	background: none;
+
+    padding: 0;
+}
+
+#me img {
+	width: 100%;
+	max-width: 240px;
+	border-radius: 50%;
+	border: 15px solid transparent;
+	box-shadow: 2px 2px 0px #191970	; NAVYOLIVE;
+	transition: all 0.1s ease-in;
+}
+
+#me img:hover {
+	border: 15px solid white;
+	position: relative;
+	z-index: 10;
+	transition: all 0.1s ease-in;
+}
+
+#me span {
+	padding: 8px 20px;
+	position: relative;
+	top: -64px;
+	left: -42px;
+	display: inline-block;
+	background: black;
+	border-radius: 0 16px 16px 0;
+	font-size: 16px;
+   }
+.about-section {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: white;
+    background-color: 100ack;
+    background-size: 100%;
+  background-color: transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.download-section{
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 0 0;
+  text-align: center;
+  color: white;
+    background-size: 100%;
+  background-color: transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.hexicon {
+    background: url("../img/hex.png");
+    width: 132px;
+    height: 210px;
+    position: relative;
+    margin: 0 auto;
+}
+.inicon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.inicon.twitter{
+    background: url("../img/twitter-logo-small.png") no-repeat center 40px;
+    background-size: 80px auto;
+
+}
+.inicon.linkedin{
+    background: url("../img/linkedin.jpg") no-repeat center 40px;
+    background-size: 80px auto;
+}
+.inicon.gmail{
+    background: url("../img/Googlemaillogo.png") no-repeat center 40px;
+    background-size: 80px auto;
+}
+.inicon.github{
+    background: url("../img/github1.jpg") no-repeat center 40px;
+    background-size: 80px auto;
+
+}
+
+.inicon.gmail:hover{
+	-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  background-size: 100px auto;
+}
+
+.inicon.github:hover{
+	-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  background-size: 85px auto;
+
+}
+.inicon.linkedin:hover{
+	-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  background-size: 80px auto;
+}
+.inicon.twitter:hover{
+	-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  background-size: 80px auto;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../img/Preloader_2.gif") center no-repeat #000000;
+	background-color:black;
+}
+>>>>>>> 9d133d9b77bc09b8540c2f54fd24af60411d1934
