@@ -2,4 +2,4 @@
 
 A Portfolio website that showcase your work.
 
-<kbd>![Portfolio Preview](https://github.com/Upa005/Question-Answering-System/blob/master/Description/screenshot_of_qas.png)</kbd>
+<kbd>![Portfolio Preview](https://github.com/upasana05ghosh/upasana05ghosh.github.io/blob/master/vendors/img/Portfolio-preview.png)</kbd>
